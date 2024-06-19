@@ -1,9 +1,8 @@
-import { StatusBar } from 'expo-status-bar';
 import { ScrollView, Text, View, Image, TouchableOpacity, TextInput   } from 'react-native';
 import React, { useState }  from 'react';
 import { styles } from './style';
 import { auth } from './firebase.config'
-import { createUserWithEmailAndPassword, signInWithEmailAndPassword } from 'firebase/auth';
+import { createUserWithEmailAndPassword } from 'firebase/auth';
 import { router } from 'expo-router'
 
 export default function App() {
