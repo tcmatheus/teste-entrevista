@@ -34,7 +34,6 @@ A pasta principal do projeto foi subistituida de scr para app
 <img src="images\repass.jpeg" width="400px;" alt=""/>
 <img src="images\api.jpeg" width="400px;" alt=""/>
 
---------------------
 
 ## Autor
 
