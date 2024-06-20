@@ -29,10 +29,10 @@ A pasta principal do projeto foi subistituida de scr para app
 --------------------
 
 <h3> Imagens funcionamento📌</h3>
-<img src="images\login.jpeg" width="700px;" alt=""/>
-<img src="images\newuser.jpeg" width="700px;" alt=""/>
-<img src="images\repass.jpeg" width="700px;" alt=""/>
-<img src="images\api.jpeg" width="700px;" alt=""/>
+<img src="images\login.jpeg" width="400px;" alt=""/>
+<img src="images\newuser.jpeg" width="400px;" alt=""/>
+<img src="images\repass.jpeg" width="400px;" alt=""/>
+<img src="images\api.jpeg" width="400px;" alt=""/>
 
 --------------------
 
