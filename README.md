@@ -26,10 +26,12 @@ Caso queira usar a versão mobile tenha instalado um emulador e clique com a let
 
 <h3> Usuários📌</h3>
 Caso nao queira criar um usário use este
+
+ ```bash
 login: admin@teste.com
 senha: admin123
-
-- Mas caso queira pode criar um usário para testar as funcionalade de recuperação de senha.
+   ```
+Mas caso queira pode criar um usário para testar as funcionalade de recuperação de senha.
 
 --------------------
 
