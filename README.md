@@ -22,9 +22,7 @@
    ```
 
 Um texto indicando o funcionamento do projeto surgira. Para rodar o projeto clique em W para abrir a versão web.
-Caso queira usar a versão mobile tenha instalado um emulador e clique com a letra A para iniciar o projeto no emulador. Caso nao tenha um emulador siga estes passos https://docs.expo.dev/workflow/android-studio-emulator/
-Caso queira podera usar também o aplicativo do celular expo para Android ou expo go para Apple store
-A pasta principal do projeto foi subistituida de scr para app
+Caso queira usar a versão mobile tenha instalado um emulador e clique com a letra A para iniciar o projeto no emulador. Caso nao tenha um emulador siga estes passos https://docs.expo.dev/workflow/android-studio-emulator/. Caso queira podera usar também o aplicativo do celular expo para Android ou expo go para Apple store. A pasta principal do projeto foi subistituida de scr para app
 
 --------------------
 
