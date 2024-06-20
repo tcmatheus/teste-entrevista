@@ -7,13 +7,13 @@
    git clone "URL DO PROJETO"
    ```
 
-2. Instale as  dependencias do projeto com os seguintes comandos:
+2- Instale as  dependencias do projeto com os seguintes comandos:
 
    ```bash
    npm install
    ```
 
-3. Rode o projeto
+3- Rode o projeto
 
    ```bash
     npx expo start
@@ -21,7 +21,7 @@
     npm start
    ```
 
-Um texto indicando o funcionamento do projeto surgira, Para rodar o projeto clique em W para abrir a versão web.
+Um texto indicando o funcionamento do projeto surgira. Para rodar o projeto clique em W para abrir a versão web.
 Caso queira usar a versão mobile tenha instalado um emulador e clique com a letra A para iniciar o projeto no emulador. Caso nao tenha um emulador siga estes passos https://docs.expo.dev/workflow/android-studio-emulator/
 Caso queira podera usar também o aplicativo do celular expo para Android ou expo go para Apple store
 A pasta principal do projeto foi subistituida de scr para app
@@ -29,10 +29,10 @@ A pasta principal do projeto foi subistituida de scr para app
 --------------------
 
 <h3> Imagens funcionamento📌</h3>
-<img src="images\login.jpeg" width="900px;" alt=""/>
-<img src="images\newuser.jpeg" width="900px;" alt=""/>
-<img src="images\repass.jpeg" width="900px;" alt=""/>
-<img src="images\api.jpeg" width="900px;" alt=""/>
+<img src="images\login.jpeg" width="700px;" alt=""/>
+<img src="images\newuser.jpeg" width="700px;" alt=""/>
+<img src="images\repass.jpeg" width="700px;" alt=""/>
+<img src="images\api.jpeg" width="700px;" alt=""/>
 
 --------------------
 
