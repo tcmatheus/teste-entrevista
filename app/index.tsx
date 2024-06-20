@@ -1,9 +1,9 @@
 import { ScrollView, Text, View, Image, TouchableOpacity, TextInput   } from 'react-native';
 import React, { useState }  from 'react';
 import { styles } from './style';
-import { auth } from './firebase.config'
+import { auth } from '../firebase.config'
 import { signInWithEmailAndPassword } from 'firebase/auth';
-import { router } from 'expo-router'
+import { router } from 'expo-router';
 
 export default function App() {
 
@@ -15,29 +15,28 @@ export default function App() {
       .then((userCredential) => {
         const user = userCredential.user;
         alert('Login Efetuado..');
-        router.replace('/userView');
-        console.log(user)
-        
+        router.replace('pages/userView/userView');
+        console.log(user)       
       })
       .catch((error) => {
         const errorMessage = error.message;
         alert(errorMessage)
       })
-  }
+  };
 
   function replacePass(){
-    router.replace('/replacePass');
-  }
+    router.replace('pages/replacePass/replacePass');
+  };
 
   function newUser(){
-    router.replace('/newUser');
-  }
+    router.replace('pages/newUser/newUser');
+  };
 
 
-  return (
-    <ScrollView style={styles.scrollView}>
-      <View style={styles.container}>
-        <Image source={require('./assets/logo.png')} style={styles.logo} />
+return (
+  <ScrollView style={styles.scrollView}>
+    <View style={styles.container}>
+      <Image source={require('./assets/logo.png')} style={styles.logo} />
         <Text style={styles.h1}> Sistema de Login</Text>
         <Text style={styles.h2}> Bem vindo(a)! Digite seus dados abaixo.</Text>
 
@@ -87,7 +86,6 @@ export default function App() {
           <Text style={styles.footerText}>Criado por Matheus Torsoni</Text>
         </View>
 
-      </View>
-    </ScrollView>
-  );
-}
+    </View>
+  </ScrollView>
+)};
